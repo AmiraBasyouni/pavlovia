@@ -1,11 +1,16 @@
 *{
 	padding: 0;
 	margin: 0;
+	color: #23312B;
 }
 
 a{
 	text-decoration: none;
 	color: inherit;
+}
+
+hr{
+	color: black;
 }
 
 body{
@@ -34,27 +39,42 @@ nav>ul{
 	list-style: none;	
 }
 
-@media (min-width: 822px){
+@media (min-width: 931px){
 main{
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
 }
+
+main>form{
+	border-radius: 5px;
+}
+
 hr{
 	margin: 0 auto;
 	width: 90%;
 }
 }
 
-@media (max-width: 821px){
+@media (max-width: 930px){
 main>form{
-	margin: 0 auto;
+	max-width: 450px;
+	margin: 30px auto;
+	border-radius: 5px;
 }
 main>form>fieldset>label>input{
 	width: 100%;
 }
 hr{
-	width: 100%;
+	max-width: 0px;
+}
+}
+
+@media (max-width: 660px){
+main>form{
+	max-width: 100%;
+	margin: 0;
+	border-radius: 0px;
 }
 }
 
@@ -65,7 +85,6 @@ main>*{
 main>form{
 	padding: 35px;
 	background-color: white;
-	border-radius: 5px;
 }
 
 main>#admin-login{
@@ -114,6 +133,7 @@ main>form>input{
 #form-hr{
 	width: 100%;
 	margin: 11px 0;
+	max-width: 100%;
 }
 
 #register-button{
