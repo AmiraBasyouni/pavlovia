@@ -1,0 +1,96 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+body{
+	background-color: #B4BFC1;
+}
+
+header{
+	color: #DEDEDE;
+	background-color: #354C41;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 15px;
+	align-items: center;
+}
+header>nav{
+	font-weight: bold;
+}
+
+header>img{
+	width: 150px;
+	background-color: #DEDEDE;
+	border-radius: 5px;
+}
+
+nav>ul{
+	list-style: none;	
+}
+
+main{
+	display: flex;
+	justify-content: center;
+}
+
+main>*{
+	margin: 80px;
+}
+
+main>form{
+	padding: 35px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+main>form>fieldset{
+	border: 0 none;
+}
+
+main>form>fieldset>label{
+	font-size: 18px;
+	display: block;
+	padding: 10px 0;
+	color: #1F3E40;
+}
+
+main>form>fieldset>label>input{
+	display: block;
+	border: 1 solid;
+	border-radius: 5px;
+	font-size: 15px;
+	padding: 5px;
+}
+main>form>fieldset>legend{
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 auto;
+	color: #1F3E40;
+}
+
+main>form>input{
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px;
+	margin: 5px 0;
+	background-color: green;
+	color: white;
+	border: 0 none;
+	border-radius: 5px;
+}
+
+main>form>input:hover{
+	background-color: white;
+	color: black;
+}
+
+main>form>input:active{
+	background-color: green;
+}
