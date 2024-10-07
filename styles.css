@@ -38,6 +38,7 @@ nav>ul{
 main{
 	display: flex;
 	justify-content: center;
+	align-items: flex-start;
 }
 }
 
@@ -72,8 +73,9 @@ main>form>fieldset>label>input{
 	display: block;
 	border: 1 solid;
 	border-radius: 5px;
-	font-size: 15px;
+	font-size: 1em;
 	padding: 5px 0;
+	padding-left: 3px;
 }
 main>form>fieldset>legend{
 	font-weight: bold;
@@ -83,7 +85,7 @@ main>form>fieldset>legend{
 }
 
 main>form>input{
-	width: 100%;
+	width: 100.5%;
 	text-transform: uppercase;
 	font-weight: bold;
 	padding: 10px;
@@ -94,11 +96,24 @@ main>form>input{
 	border-radius: 5px;
 }
 
+#form-hr{
+	width: 100%;
+	margin: 11px 0;
+}
+
+#register-button{
+	background-color: #5E3831;
+}
+
 main>form>input:hover{
 	background-color: white;
 	color: black;
 	border: 1px solid;
 	margin: 4px 0;
+}
+
+main>form>#register-button:hover{
+	background-color: white;
 }
 
 main>form>input:active{
